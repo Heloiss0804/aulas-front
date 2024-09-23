@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio e Vídeo HTML</title>
+</head>
+
+<body>
+    <h1>Trabalhando com multimídia no HTML</h1>
+    <hr>
+
+    <h2>Áudio</h2>
+    <h3>Exemplo 1: apenas com MP3 (navegadores modernos)</h3>
+    <audio controls src="multimidia/judas-priest.mp3"></audio>
+
+    <h3>Exemplo 2: (com pelo) menos dois formatos ( navegadores antigos)</h3>
+    <audio controls>
+        <source src="multimidia/judas-priest.mp3" type="audio/mp3">
+        <source src="multimidia/judas-priest.ogg" type="audio/ogg">
+
+        <!-- Se o navegar não suporta a tag <áudio> daremos a opção do úsuario baixar a música -->
+
+    </audio>
+    <p><a href="multimidia/judas-priest.mp3" download="Exemplo.mp3">Faça o Dowload da música</a></p>
+
+    <h2>Vídeo</h2>
+
+<h2>Vídeo</h2>
+<h3>Exemplo 1: Apenas MP4 (formato comum)</h3>
+<video controls src="multimidia/pink-floyd.mp4"></video>
+
+<h3>Exemplo 2: com (pelo menos) dois formatos (navegadores antigos)</h3>
+
+<video controls>
+<source src="multimidia/pink-floyd.mp4" type="video/mp4">
+<source src="multimidia/pink-floyd.webm" type="video/webm">
+
+<p>
+<a href="multimidia/pink-floyd.mp4" download="Pinkfloyd.mp4"></a>
+</video>
+</p>
+
+
+
+</body>
+
+</html>

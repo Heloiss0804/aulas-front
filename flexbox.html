@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flebox</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana;
+        }
+
+        .container {
+            border: solid 1px;
+            padding: 4px 0;
+            width: 80%;
+            height: 400px;
+            margin: auto;
+            background-color: rgb(255, 127, 234);
+
+            /* Eixo/Axis do Flebox
+            Direção Row/Linha (padrão) ou 
+            Direção Column/Coluna */
+
+            /* Habilitando o Flexbox */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        article {
+            background-color: rgb(240, 240, 240);
+            width: 30%;
+            padding: 2px;
+        }
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Trabalhando com Flebox</h1>
+    <hr>
+
+    <p>Flebox é um mecanismo que permite aplicar facilmente recursos de alinhamento, espacamento e distribuição de
+        elementos na página.Muito últil na elaboração de layouts comuns, baseados em linhas e colunas.</p>
+
+    <div class="container">
+        <article>
+            <img src="imagens/mini-apple.jpg" alt="">
+            <h2>Apple</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, ut!</p>
+        </article>
+
+        <article>
+            <img src="imagens/mini-ibm.jpg" alt="">
+            <h2>IBM</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, sit!</p>
+
+        </article>
+
+        <article>
+            <img src="imagens/mini-microsoft.jpg" alt="">
+            <h2>Microsoft</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, sit!</p>
+        </article>
+    </div>
+
+</body>
+
+</html>
