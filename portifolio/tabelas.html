@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Dados Tabulados no HTML</title>
+
+</head>
+
+<body>
+    <h1 align="center"> Exemplos de tabelas</h1>
+    <hr>
+
+
+    <table border="1">
+        <caption>Relação de Clientes </caption>
+        <thead>
+            <tr>
+                <th>País</th>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Contato</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            <tr>
+                <!-- rowspan
+                 Mesclagem de células
+                 Verticalmente -->
+                <td rowspan="4">Brasil</td>
+                <td>Chaves</td>
+                <td>Pria Grande</td>
+                <td>11-2135-0300</td>
+            </tr>
+
+            <tr>
+                >
+                <td>Chapolin</td>
+                <td>Ubatuba</td>
+                <td>11-5555-4444</td>
+            </tr>
+
+            <tr>
+                
+                <td>Kiko</td>
+                <td>Santos</td>
+                <td>11-2689-5558</td>
+            </tr>
+
+            <tr>
+                
+                <td>Chiquinha</td>
+                <td>Acapulco</td>
+                <td>11-2555-6564</td>
+            </tr>
+        </tbody>
+
+        <tfoot><!-- Roodapé da tabela (opcional)  -->
+            <tr>
+                <!-- Colspan mescla Colunas/Células, mescla Horizontalmente  -->
+                <td colspan="4"> Total de clientes: 4 </td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+</body>
+
+</html>

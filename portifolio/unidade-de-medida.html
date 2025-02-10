@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades de Medida</title>
+
+    <style>
+        *,
+        *::after,
+        * ::before {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-size: verdana;
+        }
+
+        /* Elemento raíz (html) */
+
+        html {
+            font-size: 16px;
+        }
+
+        /* div (Pai) */
+        .exemplo-eme {
+            font-size: 20px;
+
+            /* Filhos */
+            h2 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+
+
+        /* 16px é padrão */
+        h1 {
+            font-size: 3rem;
+        }
+
+        /* 48px */
+        h2 {
+            font-size: 2rem;
+        }
+
+        /* 32px */
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        /* 24px  */
+        p {
+            font-size: 1rem;
+        }
+
+        /* 16px */
+        code {
+            background-color: yellow;
+            padding: 0.5rem;
+            /* 8px */
+            border: solid 0.25rem red;
+            /* 4px */
+        }
+
+        /* CSS Reset */
+        body,h1,h2 { margin: 0;
+        padding: 0;
+    }
+
+
+        header {
+            background-color: orange;
+            height: 30vh;
+        }
+
+        main { background-color: lightblue;
+        min-height: 70vh;
+        width: 80vw;
+        margin: auto;
+    }
+
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+    <h1>Unidades de medida úteis para Design Responsivo</h1>
+</header>
+
+    <!-- Unidades ja concedidas/usadas px (pixel) -> unidade absoluta,fixa,previsivel % (porcentagem) -> unidade relativa,variável  -->
+<main>
+    <h2>REM (R-Eme)</h2>
+    <p> A medida R-EME (rem) é relativa ao <code>font-size</code> do elemento <b>raíz html</b></p>
+
+    <h3>Lorem,ipsum dolor.</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <ul>
+        <li>Lorem, ipsum.</li>
+        <li>Lorem, ipsum.</li>
+    </ul>
+
+    <h2>EME</h2>
+    <p><i>Obs: cada vez menos usada. </i></p>
+
+    <p> A medida EME (em) é relativa ao <code>font-size</code>do elemento <b>pai.</b></p>
+
+    <div class="exemplo-eme">
+        <h2>Este é h2 dentro da div</h2>
+        <p>Este é o p dentro da div</p>
+    </div>
+
+    <h2>VW e VH</h2>
+    <p>As medidas VW (Viewport Width) e VH (View Height)são relativa à área de visualização do navegador (chamada de viewport).</p>
+    <p>VW diz respeito à largura e VH diz respeito à altura</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, iure?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis reprehenderit ipsa temporibus quae unde nostrum excepturi itaque veniam porro dolorem eaque fuga aut quasi ea, libero, fugit sequi sunt quidem.
+        Error exercitationem cumque corrupti nobis explicabo animi, excepturi, accusantium deserunt dignissimos est sunt recusandae. Fugiat repellat at corrupti cupiditate reiciendis nemo quae harum animi amet beatae culpa dolorum, quod optio.
+        Voluptate, molestiae harum! Cupiditate quis corporis exercitationem dignissimos facere illo voluptatum rerum, quia distinctio atque nemo doloremque porro, sit quos beatae at labore, cum assumenda deleniti maxime sapiente maiores officiis.
+        Nobis neque illo iusto commodi quia, eaque provident earum architecto tempora temporibus voluptas facilis veritatis dicta praesentium amet itaque cum nam quas. Accusantium laboriosam, deleniti pariatur blanditiis obcaecati sit iusto!
+        Incidunt voluptate in repellendus optio libero culpa, sint reprehenderit molestiae. Necessitatibus, cupiditate. Totam voluptate, deleniti rem nulla expedita nam! Reprehenderit cumque molestias expedita earum ab ratione aperiam quos voluptatem obcaecati!
+        Suscipit ipsam libero nobis alias, recusandae rem eum inventore iste eligendi sed provident eos pariatur culpa veritatis quam voluptas ab, in quis incidunt, qui non. Voluptatibus reprehenderit placeat eligendi at!
+        Necessitatibus, similique natus possimus nobis consequuntur et veniam nulla sapiente in quas vel quia odit omnis qui ipsam ducimus ad. Eius omnis laudantium, voluptatem quos sint adipisci optio nesciunt id.
+        
+    </p>
+</main>
+</body>
+
+</html>
